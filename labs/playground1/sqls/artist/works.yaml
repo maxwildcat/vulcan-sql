@@ -1,0 +1,14 @@
+urlPath: /artist/:id/works
+request:
+  - fieldName: id
+    fieldIn: path
+    description: constituent id
+    validators:
+      - required
+sample:
+  parameters:
+    id: '1'
+  profile: duckdb
+profile: duckdb
+pagination:
+  mode: offset

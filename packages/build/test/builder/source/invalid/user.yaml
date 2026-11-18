@@ -1,0 +1,13 @@
+name: UserRole
+urlPath: /roles
+request:
+  - name: id
+    fieldIn: query
+    description: user id
+    validators:
+      - uuid
+      - required
+error:
+  - code: Forbidden
+    message: 'You are not allowed to access this resource'
+profile: test
