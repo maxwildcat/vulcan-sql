@@ -1,0 +1,1 @@
+- 2026-11-23: docs: clarified the quick start after user feedback
